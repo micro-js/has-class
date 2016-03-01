@@ -17,15 +17,20 @@ Check whether or not an element has a class
 ```js
 var hasClass = require('@f/has-class')
 
+if (hasClass('show', element)) {
+  removeClass('show', element)
+  addClass('hide', element)
+}
 ```
 
 ## API
 
-### hasClass(arg)
+### hasClass(className, element)
 
-- `arg` -
+- `className` - The class you want to see if `element` has
+- `element` - The element you want to check for `className`
 
-**Returns:**
+**Returns:** A Boolean value indicating whether or not `element` has `className` in its class list.
 
 ## License
 
