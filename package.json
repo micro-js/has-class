@@ -2,7 +2,7 @@
   "name": "@f/has-class",
   "description": "Check whether or not an element has a class",
   "repository": "git://github.com/micro-js/has-class.git",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
